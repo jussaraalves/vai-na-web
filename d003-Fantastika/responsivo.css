@@ -1,0 +1,114 @@
+@media (max-width: 600px){
+    header{
+      justify-content: space-between; 
+    }
+
+    header .mobile{
+      display: none;
+    }
+
+    header .logo{
+        margin-left: 20px;
+    }
+    .banho-tosa, .mordomia-saudavel{
+      flex-direction: column;
+      height: 100vh;
+    }
+  
+    .banho-tosa > .banho-tosa-imagem{
+      margin-left: 9rem;
+    }
+  
+    .banho-tosa-conteudo h2{
+      font-size: 35px;
+    }
+    .banho-tosa p{
+      font-size: 20px;
+    }
+  
+    .banho-tosa  img{
+      width: 300px;
+    }
+  
+    .container-apoio{
+      height: 10vh;
+      flex-direction: column;
+    }
+  
+    .mordomia-saudavel > .banho-tosa-imagem {
+      margin-left: -13rem;
+    }
+  
+    .mordomia-saudavel img{
+      margin-top: 15px;
+      width: 250px;
+    }
+  
+    .banho-tosa-conteudo {
+      order: 2;
+    }
+  
+    .banho-tosa-imagem {
+      order: 2;
+    }
+  
+    .banho-tosa-conteudo {
+      order: 1;
+    }
+  
+    button{
+      width: 125px;
+    }
+  
+    .container-apoio{
+      flex-direction: row;
+      width: 100vw;
+    }
+  
+    .parcerias{
+      justify-content: space-around;
+      width: 100vw;
+    }
+  
+    .apoio{
+      font-size: 16px;
+    }
+
+    .havaianas{
+      font-size: 30px;
+    }
+
+    .americanas{
+      font-size: 25px;
+    }
+    
+    footer {
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+      height: 1316px;
+    }
+  
+    footer h4 {
+      text-align: center;
+    }
+  
+    footer a {
+      text-align: center;
+    }
+  
+    .footer, .icons{
+      display: flex;
+      gap: 35px;
+      align-items: center;
+      flex-direction: row;
+    }
+  
+    footer h4 {
+      font-size: 33px;
+    }
+  
+    footer a {
+      font-size: 25px;
+    }
+  }

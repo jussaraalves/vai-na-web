@@ -21,7 +21,7 @@ header{
 .logo{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    margin-left: 50px;
     width: 15vw;
 }
 
@@ -34,14 +34,13 @@ figcaption{
 nav ul{
     display: flex;
     justify-content: space-evenly;
-    width: 15vw;
+    width: 16vw;
 
 }
 
 .boas-vindas{
     color: #FFF;
-    background-image: linear-gradient(to bottom, #E54979, #f05181c0);
-    height: 60vh;
+    background-color: #E54979;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -54,16 +53,19 @@ h1{
     width: 420px;
     
 }
-
+.boas-vindas img{
+    width: 245px;
+}
 .banho-tosa{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 45vh;
+    background-color: #F4F2F3;
 }
 
 .banho-tosa-conteudo{
-    width: 25vw;
+    width: 350px;
+    margin: 0px 25px;
 }
 
 .banho-tosa-conteudo h2{
@@ -79,11 +81,11 @@ h1{
     width: 300px;
 }
 
-.banho-tosa-conteudo input{
+.banho-tosa-conteudo button{
     background-color: #3A342F;
 }
 
-input{
+button{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-align: center;
@@ -92,15 +94,90 @@ input{
     border-radius: 30px;
     padding: 20px;
     margin-top: 5px;
-    width: 10vw;   
+    width: 150px;   
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 .mordomia-saudavel{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #FFF;
-    background-image: linear-gradient(to bottom, #E54979, #f05181c0);
+    background-color: #E54979;
 }
 
-.mordomia-saudavel > input{
-
+.mordomia-saudavel button{
+    color: #000;
+    background-color: #FFF;
 }
+
+.container-apoio{
+    color: #E54979;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+}
+
+.apoio{
+   font-size: 24px; 
+   font-weight: 400;
+   
+}
+
+.havaianas{
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.americanas{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.icons, .footer {
+    display: none;
+}
+
+footer{
+    background-color: #E54979;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    height: 314px;
+    padding-left: 97px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .textLogo{
+    color: #FFFFFF;
+    font-family: "Roboto Serif", serif;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+footer h4 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Roboto Serif", serif;
+    color: white;
+}
+
+
+

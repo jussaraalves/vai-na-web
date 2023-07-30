@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsivo.css">
     <title>PetShop</title>
 </head>
 <body>
@@ -14,8 +15,8 @@
         </figure>
         <nav>
             <ul>
-                <li><a href="#"><img src="assets/images/insta.png" alt="logo do instagram"/></a></li>
-                <li><a href="#"><img src="assets/images/youtube.png" alt="logo do youtube"/></a></li>
+                <li><a href="#"><img class="mobile" src="assets/images/insta.png" alt="logo do instagram"/></a></li>
+                <li><a href="#"><img class="mobile" src="assets/images/youtube.png" alt="logo do youtube"/></a></li>
                 <li><a href="#"><img src="assets/images/whatsapp.png" alt="logo do whatsapp"/></a></li>
             </ul>
         </nav>
@@ -23,9 +24,9 @@
     <main>
         <section class="boas-vindas">
             <h1>Boas vindas à nossa inauguração</h1>
-            <figure>
-                <img class="cachorro-rosa" src="assets/images/cachorro-rosa.png" alt="cachorro"/>
-                <img src="assets/images/pata.png" alt="pata"/>
+            <figure class="imagens">
+                <img class="cachorro-rosa" src="assets/images/dog" alt="cachorro"/>
+                
             </figure>
         </section> 
         <section class="banho-tosa">
@@ -38,27 +39,79 @@
                     para cuidar da saúde, higiene e
                     bem estar emocional do seu pet.
                 </p>
-                <input type="button" value="Fale Conosco" class="button">
+                <button type="button">Fale Conosco</button>
             </div>
             <div class="banho-tosa-imagem">
                 <img src="assets/images/cachorro-amarelo.png" alt="cachorro2">
             </div>
         </section>
+        
         <section class="mordomia-saudavel">
+            <div class="banho-tosa-imagem">
+                <img src="assets/images/cachorro-preto.png" alt="cachorro2">
+            </div>
             <div class="banho-tosa-conteudo">
-                <div class="banho-tosa-imagem">
-                    <img src="assets/images/cachorro-preto.png" alt="cachorro2">
-                </div>
                 <h2>Mordomia Saudável</h2>
                 <p>
                     Temos um espaço dedicado a saúde e higiene canina, 
                     com ambientes para interação social entre cães com 
                     período monitorado, massagem e terapia.
                 </p>
-                <input type="button" value="Fale Conosco" class="button">
+                <button type="button">Fale Conosco</button>
             </div> 
         </section>
-        </section>
+
+        <section>
+            <div class="parcerias">
+            <div class="container-apoio">
+                <p class="apoio">apoio:</p>
+                <p class="havaianas">Havaianas</p>
+                <p class="americanas">americanas</p>
+            </div>
+            </div>
+        </section>  
     </main>
+    <footer>
+        <div class="headerLogo footer">
+            <figure>
+                <img src="assets/images/logo.png" alt="LogoPata">
+            </figure>
+            <p class="textLogo">
+                Fantastika
+            </p>
+        </div>
+        <nav class="icons">
+            <a href="#"><img src="assets/images/insta.png" alt="Instagram"></a>
+            <a href="#"><img src="assets/images/youtube.png" alt="Youtube"></a>
+            <a href="#"><img src="assets/images/whatsapp.png" alt="Whatsapp"></a>
+        </nav>
+        <section>
+            <h4>Atendimento</h4>
+            <nav class="links">
+                <a href="#">Chat Virtual</a>
+                <a href="#">WhatsApp</a>
+                <a href="#">Telefone</a>
+                <a href="#">E-mail</a>
+            </nav>
+        </section>
+        <section>
+            <h4>Sobre</h4>
+            <nav class="links">
+                <a href="#">Nosso trabalha</a>
+                <a href="#">Infraestrutura</a>
+                <a href="#">Nossas unidades</a>
+                <a href="#">Especialistas</a>
+            </nav>
+        </section>
+        <section>
+            <h4>Unidades</h4>
+            <nav class="links">
+                <a href="#">Clínica RJ</a>
+                <a href="#">Clínica SP</a>
+                <a href="#">Clínica ES</a>
+                <a href="#">Clínica SC</a>
+            </nav>
+        </section>
+    </footer>
 </body>
 </html>
