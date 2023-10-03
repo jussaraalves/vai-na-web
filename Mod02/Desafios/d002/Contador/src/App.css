@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.imagem{
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  top: 40%;
+  left: 48.5%;
+  display: flex;
+  align-items: center;
+  width: 15em;
+}
+
+
